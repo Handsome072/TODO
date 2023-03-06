@@ -1,0 +1,158 @@
+.background {
+    position: fixed;
+    background-image: url("components/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar-head {
+    background-color: rgba(70, 134, 70, 0.278);
+    box-shadow: 0.3px 1px 0.3px 0.3px rgba(153, 177, 133, 0.631);
+    position: fixed;
+    width: 100vw;
+}
+
+.titre {
+    color: red;
+}
+
+input:focus {
+    outline: none;
+}
+
+.box {
+    width: 200px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.recherche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    top: 490px;
+    left: 35%;
+}
+
+.recherche input {
+    width: 450px;
+    height: 50px;
+    padding-left: 30px;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+.fa-search {
+    margin-left: -50px;
+    color: rgb(140, 133, 133);
+    border-color: transparent;
+}
+
+.logo-dictionary {
+    width: 120px;
+    margin-top: 10px;
+    transform: rotate(-25deg);
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.titre h1 {
+    font-size: 95px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    /* margin-top: -60px; */
+}
+
+.red {
+    color: red;
+    /* font-size: 120px; */
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: rgb(139, 200, 139);
+}
+
+.purple {
+    color: purple;
+}
+
+.orange {
+    color: orangered;
+}
+
+.blue {
+    color: blue;
+}
+
+.white {
+    color: aliceblue;
+}
+
+.nav-left {
+    /* margin-left: 30px; */
+    height: 380px;
+    margin-top: 200px;
+    background-color: rgba(16, 95, 16, 0.741);
+    padding: 40px;
+    /* background-color: rgba(128, 186, 128, 0.741); */
+    /* background-color: rgba(12, 103, 9, 0.284); */
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.contenu {
+    font-size: 20px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.liste {
+    background-color: rgba(41, 190, 41, 0.741);
+    height: 60px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+    transition: 0.2s ease-in;
+}
+
+.liste:hover {
+    background-color: rgba(235, 251, 61, 0.693);
+}
+
+.enreg {
+    padding: 11px 15px;
+}
+
+.contenu ul {
+    padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .titre h1 {
+        font-size: 14vw;
+    }
+    .recherche input {
+        width: 100%;
+    }
+}
